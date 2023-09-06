@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
+    <PackageId>Karelia.Examples.Othello</PackageId>
+    <Authors>Petri Laitinen</Authors>
+    <Company>Karelia University of Applied Sciences</Company>
+    <Description>Library to implement Othello game based on alpha-beta-pruning algorithm.</Description>
+    <PackageLicenseExpression>GPL-2.0-only</PackageLicenseExpression>
+    <PackageTags>Game theory, Minimax, Alpha-beta</PackageTags>
+    <RepositoryUrl>https://github.com/laitinenp/csharp-minimax</RepositoryUrl>
+    <PackageReadmeFile>.\README.md</PackageReadmeFile>
     <RootNamespace>csharp_othello</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
@@ -9,6 +17,7 @@
 
   <ItemGroup>
     <PackageReference Include="Karelia.Examples.Minimax" Version="1.0.0" />
+    <None Include=".\README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
