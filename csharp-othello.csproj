@@ -8,7 +8,7 @@
     <Description>Library to implement Othello game based on alpha-beta-pruning algorithm.</Description>
     <PackageLicenseExpression>GPL-2.0-only</PackageLicenseExpression>
     <PackageTags>Game theory, Minimax, Alpha-beta</PackageTags>
-    <RepositoryUrl>https://github.com/laitinenp/csharp-minimax</RepositoryUrl>
+    <RepositoryUrl>https://github.com/laitinenp/csharp-othello.git</RepositoryUrl>
     <PackageReadmeFile>.\README.md</PackageReadmeFile>
     <RootNamespace>csharp_othello</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
